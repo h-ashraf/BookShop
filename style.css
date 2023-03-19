@@ -1,0 +1,161 @@
+/* Reset default margin and padding */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Basic styles for body and header */
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	background-color: #f5f5f5;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+/* Styles for navigation */
+nav {
+	display: flex;
+	justify-content: center;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+/* Styles for book list */
+.books {
+	padding: 20px;
+}
+
+.books h2 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.books ul {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.books li {
+	margin: 20px;
+	flex-basis: calc(50% - 40px);
+	background-color: #fff;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+	overflow: hidden;
+}
+
+.books li:hover {
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.books img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.books h3 {
+	font-size: 20px;
+	margin: 10px 0;
+}
+
+.books p {
+	margin: 10px 0;
+}
+
+.books button {
+	display: block;
+	margin: 10px auto;
+	padding: 10px 20px;
+	border: none;
+	background-color: #333;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.books button:hover {
+	background-color: #555;
+}
+
+/* pay.php styles */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+form input[type=text], form input[type=number] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+form input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+form .error {
+  color: red;
+  margin-bottom: 10px;
+}
+
+/* success.php styles */
+body {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 10px;
+}
